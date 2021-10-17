@@ -1,0 +1,17 @@
+button{
+    background-color: rgb(39, 180, 39);
+    padding: 15px;
+    font-weight: bolder;
+    border-radius:100px;
+    
+    width: 90px;
+    height: 50px;
+}
+input[type=text], input[type=password],input[type=tel]{
+    width: 30%;
+    height: 3%;
+    background-color: rgb(247, 240, 240);
+    padding: 10px;
+    border: none;
+    border-radius: 10%;
+}

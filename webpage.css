@@ -1,0 +1,45 @@
+.header{
+    background-color: tomato;
+    color: #ec113d;
+    padding: 30px;
+    font-size:bolder ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+.navbar a:hover{
+    background-color: darksalmon;
+}
+.footer{
+    background-color: hotpink;
+    color: indigo;
+    padding: 16px;
+    text-align: center;
+    
+}
+.col1,.col2,.col3{
+    margin: 5px;
+    font-size: medium;
+    font-family: cursive;
+    padding: 13px;
+   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 156px;
+    text-decoration: none;
+  }

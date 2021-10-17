@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Implementing Map using Sets</h1>
+    <p id="ice">
+        <p id="ses"></p>
+        <p id="ses1"></p>
+
+    </p>
+    <script>
+        const icecreams= new Map();
+        icecreams.set("vanilla", 30);
+        icecreams.set("chocolate",50);
+        icecreams.set("strawberry",40);
+        let arr = " ";
+
+        icecreams.forEach(function(value ,key){
+            arr += key +'=' +value+ "<br>"
+        })
+         document.getElementById("ice").innerHTML = arr;
+
+
+        sessionStorage.setItem("Name","nav");
+        localStorage.setItem("Place","Banglore");
+        document.getElementById("ses").innerHTML=sessionStorage.getItem("Name");
+        document.getElementById("ses1").innerHTML=localStorage.getItem("Place");
+    </script>
+
+</body>
+</html>

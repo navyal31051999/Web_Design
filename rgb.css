@@ -1,0 +1,11 @@
+#demo{
+    background-color: rgba(200 , 41, 20, 9);
+    color: rgba(28 , 21, 10, 9);
+    text-align: center;
+    font-size: 200%;
+}
+body{
+    background-image: url(image/img6.jpg);
+    background-size: 100% 390%;
+    
+}

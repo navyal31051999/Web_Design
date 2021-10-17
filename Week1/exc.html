@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Demo of Exception Handling</h1>
+    <p id="msg" ></p>
+    
+  <script>
+      try {
+        let num = 1;
+        //   ErrDisplay("DIsplay error");
+      //    num.toPrecision(500);
+          num.toUpperCase();
+
+      } catch (err) {
+
+        //  document.getElementById("msg").innerHTML = err.name; //Rangeno
+          document.getElementById("msg").innerHTML = err.message; //num.toUpperCase is not a function for numbers
+          
+      }
+  </script>
+</body>
+</html>
